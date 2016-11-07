@@ -1,4 +1,4 @@
-cask :v1 => 'konica-minolta-bizhub-c554e-driver' do
+cask 'konica-minolta-bizhub-c554e-driver' do
   version '5.2.1'
   sha256 'dc9759ad89977336da60fb3deae7af8b292c1fbbb2ab9b9637e096bd71e2c2d4'
 
@@ -6,7 +6,6 @@ cask :v1 => 'konica-minolta-bizhub-c554e-driver' do
   name 'Konica Minolta Bizhub C554e Driver'
   homepage 'http://www.biz.konicaminolta.com/download/'
   license :gratis
-  tags :vendor => 'Konica Minolta'
 
   pkg 'bizhub_C554_C364_109.pkg'
 
