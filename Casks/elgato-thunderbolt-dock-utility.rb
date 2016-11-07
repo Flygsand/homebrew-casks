@@ -5,7 +5,7 @@ cask 'elgato-thunderbolt-dock-utility' do
   homepage 'https://www.elgato.com/en/thunderbolt/thunderbolt-2-dock'
   license :gratis
 
-  if MacOS.release == :el_capitan
+  if MacOS.version == :el_capitan
     url 'http://dl.elgato.com/thunderbolt/dockutility/Elgato_Thunderbolt_Dock_Software_112_114_1011.pkg'
     sha256 'd8ea4428ed0d3ad43eb52e629bbaa0ef959a9331feaff2f8e8ddcabcfeaf6de0'
     pkg 'Elgato_Thunderbolt_Dock_Software_112_114_1011.pkg'
